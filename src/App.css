@@ -1,1 +1,80 @@
+h1 {
+  text-align: center;
+}
 
+body {
+  background-color: rgb(207, 204, 204);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Play-area {
+  margin-top: 100px;
+}
+
+.Card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  margin: auto;
+}
+
+.Deck {
+  text-align: center;
+}
+
+.Deck-draw {
+  margin: 0 10px;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+}
+
+.Deck-draw:hover {
+  cursor: pointer;
+}
+
+.Deck-draw:active,
+.Deck-draw:focus {
+  outline: none;
+}
